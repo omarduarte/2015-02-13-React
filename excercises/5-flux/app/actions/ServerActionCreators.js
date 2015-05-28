@@ -12,7 +12,7 @@ var ServerActionCreators = {
   deletedContact (contact) {
     AppDispatcher.handleServerAction({
       type: ActionTypes.CONTACT_DELETED,
-      contact: contact
+      deletedContact: contact
     });
   }
 };
